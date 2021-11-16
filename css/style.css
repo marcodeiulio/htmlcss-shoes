@@ -5,6 +5,10 @@
 	font-family: 'Rubik Mono One', sans-serif;
 }
 
+html {
+	overflow: hidden;
+}
+
 img {
 	max-width: 100%;
 }
@@ -46,3 +50,34 @@ h1 {
 	color: #008000;
 	background-color:#ffff00;
 }
+
+/* nav */
+.navigation {
+ position: fixed;
+ z-index: 1;
+ top: 40px;
+ right: 10px;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 50%;
+	background-color: #fff;
+	text-align: center;
+}
+
+nav li {
+	margin: 20px;
+	display: inline;
+	filter: drop-shadow(0 0 0.3rem rgba(0, 0, 0, 0.322));
+}
+
+nav ul {
+	list-style: none;
+}
+
